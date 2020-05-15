@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Kids Drawing</string>
+    <string name="smallBrush">small brush stroke</string>
+    <string name="largeBrush">large brush size</string>
+    <string name="mediumBrush">medium brush</string>
+    <string name="brush_manager">Brush Manager</string>
+    <string name="colorPalette">color_palette</string>
+    <string name="background_image">background Image</string>
+    <string name="snack_bar">please allow permissions</string>
+    <string name="enable">Enable</string>
+    <string name="undo_action">undo</string>
+    <string name="save_action">click to save</string>
+    <string name="please_wait">Please Wait</string>
+</resources>
