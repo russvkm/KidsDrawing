@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Kids Drawing</string>
+    <string name="app_name">Free Hand Drawing</string>
     <string name="smallBrush">small brush stroke</string>
     <string name="largeBrush">large brush size</string>
     <string name="mediumBrush">medium brush</string>
@@ -11,4 +11,10 @@
     <string name="undo_action">undo</string>
     <string name="save_action">click to save</string>
     <string name="please_wait">Please Wait</string>
+    <string name="alpha">Alpha</string>
+    <string name="red">R</string>
+    <string name="green">G</string>
+    <string name="blue">B</string>
+    <string name="cancel">Cancel</string>
+    <string name="Ok">OK</string>
 </resources>

@@ -14,7 +14,7 @@ class DrawingStuff(context: Context, attrs: AttributeSet): View(context,attrs) {
     private var mDrawPaint: Paint?=null
     private var mCanvasPaint:Paint?=null
     private var brushSize:Float=0.toFloat()
-    public var color= Color.BLACK
+    private var color= Color.BLACK
     private var canvas: Canvas?=null
     private val path=ArrayList<CustomPath>()
     private val mUndoPath=ArrayList<CustomPath>()
@@ -98,7 +98,7 @@ class DrawingStuff(context: Context, attrs: AttributeSet): View(context,attrs) {
         mDrawPaint!!.color=color
     }
 
-    internal class CustomPath(var color:Int,var brushThickness:Float): Path() {
+    private class CustomPath(var color:Int,var brushThickness:Float): Path() {
 
     }
 
